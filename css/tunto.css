@@ -1,0 +1,61 @@
+
+html, body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #182635;
+	color: #E1EBF5;
+}
+
+.container {
+	margin-top: 17%;
+}
+
+
+/* button classes */
+.btn {
+	border: none;
+}
+
+
+/* navbar classes */
+.navbar-default {
+	background-color: #182635;
+	border-color: #182635 #182635 #E1EBF5 #182635;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-brand img {
+	width: 30px;
+}
+
+.collapse.navbar-collapse > ul > li.active > a,
+.collapse.navbar-collapse > ul > li.active > a:hover{
+	color: #182635;
+}
+
+.collapse.navbar-collapse > ul > li:hover > a {
+	color: #F2F7FB;
+}
+
+.collapse.navbar-collapse > ul > li > a {
+	color: #E1EBF5;
+}
+
+
+/* panel styles */
+.panel {
+	background-color: #44505B;
+	color: #E1EBF5;
+	border-radius: 0;
+	border: none;
+}
+
+.panel-default > .panel-body {
+	border-top: 1px solid #E1EBF5;
+}
+
+.panel-default > .panel-body:first-child {
+	border-top: none;
+}
